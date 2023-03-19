@@ -1,4 +1,3 @@
-
 const addButton = document.getElementById("botonAdd");
 const newTask = document.getElementById("newTask");
 const container = document.querySelector(".container");
