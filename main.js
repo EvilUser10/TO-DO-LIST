@@ -23,7 +23,7 @@ addButton.addEventListener("click", () => {
     basura.forEach(btn => {
         //Cuando encontremos donde hacemos el click
         btn.addEventListener("click", () => {
-            btn.parentNode.remove();//Removemos el padre que es el elemento.
+            btn.parentNode.remove();//Removemos el elemento padre.
         });
     });
 });
